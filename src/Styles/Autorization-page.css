@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Crystal;
+    src: url(/src/Styles/Fonts/Crystal.ttf);
+    
+}
+
+#Autorization-page
+{
+    display: grid;
+    grid-template-areas: "header "
+                         "form"
+                         "footer";
+    grid-template-rows: 0.1fr 3.62fr 0.1fr;
+    grid-column-gap: 18px;
+    grid-row-gap: 7px;
+    grid-auto-rows: 100px;
+    margin: 0%;
+}
+
+#Autorzation_header
+{
+    grid-area: header;
+}
+
+#Autorization_footer
+{
+    grid-area: footer;
+    
+}
+
+
+#Autorization_content
+{
+    grid-area: form;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+}
+
+
+#Autorization_form
+{
+    height: 200px;
+    width: 400px;
+    border: 6px solid #00FFFF;
+    border-radius: 20px;
+    box-shadow: 0 0px 2px 2px #2F4F4F;				
+    background: linear-gradient(#3D3F3F, black);
+    grid-area: auth;
+    display: grid;
+    align-content: space-around;
+    justify-items: center;
+}
+
+.MyInput
+{
+    font-family: Crystal;
+    height: 25px;
+}
